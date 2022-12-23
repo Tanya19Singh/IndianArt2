@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width",initial-scale="1.0">
+    <title>contact us</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(252, 250, 250);
+            font-weight: bold;
+            text-align: left;
+            
+        }
+        *{
+               margin:20px,120px,20px,30px ;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+        }
+
+        p{
+            font-weight: bold;
+    
+        }
+       .c1{
+            color:rgb(252, 252, 252);
+           padding:30px;
+           border: 2px;
+           border-radius: 3px;
+           text-align: center;
+           line-height:2 ;
+           background-image:url("/feedbg.jpg");
+           background-size:cover ;
+           background-size:100% 100%;
+           background-repeat: no-repeat;
+        filter:grayscale(25%);
+       }
+       input[type="text"],
+       input[type="number"],
+       input[type="email"],
+       textarea
+    {
+        border: 1px solid #ffffffc6;
+        border-radius: 3px;
+        padding: 5px;
+
+    }
+    textarea{
+        width:100%;
+    }
+    input[type="text"],
+       input[type="number"],
+       input[type="email"]
+       {width:100%;
+        
+       }
+       input[type="submit"]
+       {
+           border:3px;
+           border-color: #25c0a4c6;
+           padding:12px 20px;
+           background-color:#48c5ebc6;
+           border-radius: 3px;
+           width: 100%;
+           cursor:pointer;
+       }
+       .c2{
+        color: black;
+           margin: 30px 30px 30px;
+           padding:20px;
+           border:3px,#bcb9b9;
+           background-color:#d3cbcb ;
+           border-radius: 3px;
+           height: 70%;
+           width: 50%;
+           display: inline-block;
+           text-align: left;
+           opacity: 0.8;
+       }
+       input[type="submit"]:hover
+       {
+             background-color: #219ecfc6;
+       }
+
+    </style>
+</head>
+<body>
+
+        <div class="c1">
+            <h1 style="text-align:center ;font-size: 60px;">Feedback Form</h1>
+            <p style="text-align: left;"><h1 style="margin: 0px 40px;font-size: 30px;">Want to be a tranditional arts saviour</h1><p style="font-size:15px;">If you want to contribute in this drive of saving traditions and traditional arts of India,then do provide us your precious feedback.</p><br> </p>
+            <div class="c2"> <p>Name*<input type="text" required name="name" placeholder="enter your name" id="name">
+                <br> <br>contact no.*<input type="number" required name="contact no." id="contact no." placeholder="preferred whatsapp no.">
+                <br><br>E-mail*<input type="email" required name="email" id="email" placeholder="abcd420@gmail.com">
+   <br> <br> Address
+    <textarea placeholder="enter your address" name="address" id="address" rows="5" cols="100"></textarea>
+    <br>  <br> Feedback
+    <textarea name="msg"  id="msg" rows="10" cols="100" placeholder="Describe your thoughts about this initiative"></textarea>
+   <br> <br> Querry(if any)
+    <textarea name="querry" rows="10" cols="100" id="querry" placeholder="we will try to answer your querry ASAP"></textarea>
+</p>
+<input type="submit" value="SUBMIT"></div>
+</div>
+
+</body>
+</html>
