@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passions+Conflict&display=swap');
+.navbar{
+    height:10vh;
+}
+.navbar-brand{
+    font-family: 'Passions Conflict', cursive;
+    font-weight: bold;
+    font-size: 50px;
+    color:rgb(238, 206, 213);
+}
+.header{
+    padding:30px 30px;
+    height: 100vh;
+display: flex;
+  background-image: url("step1.png");
+  background-size: 100% 100%;
+    align-items: center;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    
+}
+.heading{
+    justify-content: center;
+    margin-top: 16px;
+    margin-left: 50px;
+    padding:50px 50px;
+   /* height:90%;
+    width:40%;*/
+    background: linear-gradient(to right,#CBCE91FF,#EA738DFF 80%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Chivo Mono', monospace;
+   /* background: rgb(96, 155, 172);*/
+}
+#head1{
+    font-size:2.5rem;
+}
+.text-body{
+    margin-left: 102px;
+    font-size: 0.9rem;
+    padding:30px 90px;
+   /* height:40vh;
+    width:50vw;*/
+  /*  color: rgb(253, 253, 253);*/
+  background:  linear-gradient(to right,#CBCE91FF,#EA738DFF 80%);
+  /* Mask the color to the text, and remove the rest  */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    font-family: 'Chivo Mono', monospace;
+    /*background: rgb(38, 62, 86);*/
+   
+}
+/*#states{
+width: 100vh;
+
+}*/
+.r{
+    background-color: #1a1414;
+    padding:30px 30px;
+    height: 90vh;
+   
+
+}
+/*.card-container{
+    display:flex;
+    flex-direction: row;
+}*/
+.card-container{
+    align-items: center;
+    justify-content: center;
+display:flex;
+flex-direction: row;
+height:90%;
+width: 100%;
+}
+.body-header
+{
+    padding-bottom:0px;
+    color:#f2acbe ;
+    font-weight: bold;
+    font-size:3rem;
+}
+.r2 .body-header{
+    color:#2a1216
+}
+.c{
+margin:50px ;
+/*padding: 10px 10px;*/
+width:20rem;
+height:18rem;
+transform-style: preserve-3d;
+transition:all 0.7s cubic-bezier(.4,.2,.2,1);
+
+ 
+}
+
+.c:hover{
+    transform:rotateY(180deg);
+}
+.front{
+    height:100%;
+    width:100%;
+    position: absolute;
+    backface-visibility: hidden;
+    background-color: #f54f5a;
+}
+.front img{
+   margin-bottom:10px;
+    height:100%;
+    width:100%;
+}
+
+.back{
+    padding:10px;
+    height:100%;
+    width:100%;
+    background:linear-gradient(to bottom,#3f0a1b,#947982  85%);
+    color:rgb(237, 233, 235);
+    position: absolute;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+}
+.back2{
+    background:linear-gradient(to bottom,#241b1b,#d65b63 65%);
+    color:#f5de9e
+}
+.ctext{
+    font: size 0.5em;
+}
+.center{
+    text-align: center;
+}
+.btn{
+    
+    padding:3px 8px;
+    border:2px #e85f67;
+    background-color: #393232;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.btn:hover{
+    background-color: grey;
+}
+.btn a{
+    color: white;
+    }
+.r2{
+    background-color: #e78086;
+}
