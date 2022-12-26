@@ -1,0 +1,29 @@
+.header{
+    flex-direction: column;
+    height:80vh;
+}
+.heading{
+    margin:0px;
+
+}
+.text-body{
+    margin:auto;
+    padding:0px 30px 30px;
+    text-align: center;
+}
+.card-container{
+    flex-direction: column;
+}
+.r{
+    height:130vh;
+}
+.c{
+margin:25px;
+}
+.navbar{
+    height:auto;
+    width:auto;
+}
+.single{
+    height:90vh;
+}
